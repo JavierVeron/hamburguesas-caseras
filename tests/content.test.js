@@ -10,8 +10,8 @@ describe('content', () => {
     expect(TITULO.length).toBeGreaterThan(0)
   })
 
-  it('el precio es "$9000"', () => {
-    expect(PRECIO).toBe('$9000')
+  it('el precio es "$10.000"', () => {
+    expect(PRECIO).toBe('$10.000')
   })
 
   it('el precio comienza con $', () => {
